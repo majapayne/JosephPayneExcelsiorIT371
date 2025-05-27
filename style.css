@@ -26,12 +26,12 @@
 		}
 
 		.logo {
-			width: 200px;
+			width: 180px;
 			height: 150px; 
             background-color: #6d2c00;
 			position: absolute;
             top: 1%;
-            left: 1%;
+            left: 7px;
             display: flex;
             align-items: left;
 
@@ -45,7 +45,7 @@
 			width: 200px;
 			height: 100vh;
 			background-color: #6d2c00;
-			color: #fff;
+			color: #918b8b;
 			box-sizing: border-box;
 			position: fixed;
 		}
@@ -59,6 +59,10 @@
             h1 {
                 text-align: center
             }
+            h2 {
+                text-align: center;
+                color: #6d2c00;
+            }
 		}
 
 		.menu-header a {
@@ -69,4 +73,5 @@
 			margin-bottom: 10px;
 			transition: background-color 0.3s;
 		}
+
     </style>
