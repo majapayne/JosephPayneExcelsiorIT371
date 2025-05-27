@@ -1,1 +1,55 @@
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #747373;
+            padding: 10px;
+            text-align: center;
+            font-size: 30px;
+            color: rgb(255, 0, 0);
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
 
+        		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		.menu {
+			display: flex;
+		}
+
+		.menu-header {
+			width: 200px;
+			height: 100vh;
+			background-color: #6d2c00;
+			color: #fff;
+			box-sizing: border-box;
+			position: fixed;
+		}
+
+		.PageInfo {
+			flex: 1;
+			padding: 20px;
+			box-sizing: border-box;
+			margin-left: 200px;
+			text-align: justify;
+		}
+
+		.menu-header a {
+			display: block;
+			color: #fff;
+			text-decoration: none;
+			padding: 10px;
+			margin-bottom: 10px;
+			transition: background-color 0.3s;
+		}
+    </style>
