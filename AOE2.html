@@ -1,74 +1,61 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <title>Game Reviews</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <title>Game Reviews</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <header>
-        <h1>GAME REVIEWS BLOG</h1>
-        <img src="Photos/logo.jpg" alt="Game Reviews Logo" class="logo">
-    </header>
+<header>
+    <h1>GAME REVIEWS BLOG</h1>
+    <img src="Photos/logo.jpg" alt="Game Reviews Logo" class="logo">
+</header>
 
-    <body>
-        <div class="menu">
-            <div class="menu-header">
-                <h2 style="text-align:center;">Menu</h2>
-                <ul>
-                    <li><a href="Home.html">Main Library of Games</a></li>
-                    <li><a href="About.html">About Us</a></li>
-                    <li><a href="index.html">Back to Main Page</a></li>
-                </ul>
-            </div>
+<body>
+    <div class="menu">
+        <div class="menu-header">
+            <h2 style="text-align:center;">Menu</h2>
+            <ul>
+                <li><a href="Home.html">Main Library of Games</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="index.html">Back to Main Page</a></li>
+                <li><a href="Contact.html">Contact Me!</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="PageInfo">
+        <h1>AGE OF EMPIRES II</h1>
+        <h2>Game Overview</h2>
+
+        <div>
+            <img src="Photos/AOEII.png" alt="Age of Empires II Logo" width="120" height="120" style="float: left; margin-left: 20px; margin-right: 20px;">
+            <p>Age of Empires II, also known as AoE2, is a real-time strategy game developed by Ensemble Studios and published by Microsoft. It was released in 1999 and is the second installment in the Age of Empires series.</p>
         </div>
 
-        <div class="PageInfo">
-            <h1>AGE OF EMPIRES II</h1>
-            <h2>Game Overview</h2>
-    
-            <div>
-                <img src="Photos/AOEII.png" alt="Age of Empires II Logo" width="120" height="120"  style="float: left; margin-left: 20px; margin-right: 20px;">
-                <p>Age of Empires II, also known as AoE2, is a real-time strategy game developed by Ensemble Studios and published by Microsoft. It was released in 1999 and is the second installment in the Age of Empires series.</p>
-            </div>
+        <div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>Game Details</h2>
+            <ul>
+                <li><strong>Developer:</strong> Ensemble Studios</strong></li>
+                <li><strong>Publisher:</strong> Microsoft</li>
+                <li><strong>Release Date:</strong> September 30, 1999</li>
+                <li><strong>Genre:</strong> Real-time strategy</li>
+                <li><strong>Platforms:</strong> PC, Mac, Xbox</li>
+            </ul>
+        </div>
 
-            <div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <h2>Game Details</h2>
-                <ul>
-                    <li><strong>Developer:</strong> Ensemble Studios</strong></li>
-                    <li><strong>Publisher:</strong> Microsoft</li>
-                    <li><strong>Release Date:</strong> September 30, 1999</li>
-                    <li><strong>Genre:</strong> Real-time strategy</li>
-                    <li><strong>Platforms:</strong> PC, Mac, Xbox</li>
-                </ul>
-            </div>
+        <div>
+            <h2>Game Review</h2>
+            <p>Age of Empires II is widely regarded as one of the best real-time strategy games of all time. It features a rich historical setting, allowing players to control various civilizations from different eras. The gameplay is engaging, with a focus on resource management, city building, and military strategy.</p>
+            <p>The game offers a variety of campaigns and scenarios, each with unique challenges and objectives. The AI is well-designed, providing a challenging experience for players of all skill levels. The multiplayer mode adds even more depth, allowing players to compete against each other in epic battles.</p>
+        </div>
 
-            <div>
-                <h2>Game Review</h2>
-                    <p>Age of Empires II is widely regarded as one of the best real-time strategy games of all time. It features a rich historical setting, allowing players to control various civilizations from different eras. The gameplay is engaging, with a focus on resource management, city building, and military strategy.</p>
-                    <p>The game offers a variety of campaigns and scenarios, each with unique challenges and objectives. The AI is well-designed, providing a challenging experience for players of all skill levels. The multiplayer mode adds even more depth, allowing players to compete against each other in epic battles.</p>
-            </div>
+    </div>
 
-            <div>
-                <h2>Leave a Comment</h2>
-                <input id="AOE2Comment"> <br> <br>
-                <button onclick="addComment()">Submit</button>
-                <h2 id="AOE2UserInput"></h2>
-
-                <script>
-                    function addComment() {
-                        let AOE2Comment = document.querySelector("#AOE2Comment");
-                        let AOE2UserInput = document.querySelector("#AOE2UserInput");
-
-                        AOE2UserInput.innerHTML += "<p>" + AOE2Comment.value + "</p>"; 
-                    }
-                </script>
-            </div>
-
-    </body>
+</body>
 
 </html>
